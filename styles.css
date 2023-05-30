@@ -1,0 +1,257 @@
+body {
+    margin: 20px;
+
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/19/16/15/background-1992713_1280.jpg");
+    animation-name: gh;
+    animation-duration: 3s;
+}
+
+@keyframes gh {
+    from {
+        background-image: url("https://www.mos.org/sites/dev-elvis.mos.org/files/images/main/uploads/slides/ExUni-LP.jpg");
+    }
+
+    ;
+
+    to {}
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 100%;
+    animation-name: av;
+    animation-duration: 4s;
+    animation-delay: 3s;
+
+
+}
+
+.cops {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+
+
+
+@keyframes av {
+    from {
+        height: 0;
+        width: 0;
+    }
+
+    to {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+.card {
+
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid darkblue;
+    border-top: 6px solid crimson;
+    animation-name: cd;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+
+
+
+
+
+
+@keyframes cd {
+    from {
+        width: 450px;
+    }
+
+    to {
+        opacity: 1;
+        width: 520px;
+    }
+
+
+}
+
+.fl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -250px
+}
+
+.head {
+    margin-left: 160px;
+    animation-name: xy;
+
+}
+
+.card2 {
+    padding-top: 5px;
+    width: 490px;
+    height: 250px;
+    margin: 0 auto;
+    background: #ddebf8;
+    border-bottom: 6px solid darkblue;
+    border-top: 6px solid darkblue;
+
+    animation-name: cde;
+
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+.card3 {
+    justify-content: center;
+    width: 150px;
+    margin: 0 auto;
+    height: 70px;
+    border-top: 6px solid darkblue;
+    border-bottom: 6px solid crimson;
+    margin-left: 670px;
+
+    background: #ddebf8;
+    animation-name: yt;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+@keyframes yt {
+    from {}
+
+    to {
+        opacity: 1;
+    }
+}
+
+.insta,
+.tele {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    animation-name: yu;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes yu {
+    from {
+        width: 0;
+        height: 0;
+    }
+
+    to {
+        opacity: 1;
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+
+
+
+@keyframes cde {
+    from {
+        width: 450px
+    }
+
+    to {
+        opacity: 1;
+        width: 490px;
+    }
+}
+
+
+.el1,
+.el2,
+.el3,
+.el4 {
+    line-height: 30px;
+    font-family: algerian;
+    margin-right: 10px;
+    animation-name: abc;
+    animation-duration: 2s;
+    animation-delay: 9s;
+
+}
+
+@keyframes abc {
+    from {
+        line-height: 30px;
+
+    }
+
+    to {
+        line-height: 40px;
+    }
+}
+
+.el4:hover {
+    background-image: url("https://cops-iitbhu.github.io/IG-website//images/slider7001400/COPS_LOGO.png");
+    border-radius: 30px;
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    transition: 2s;
+
+
+
+
+}
+
+.im {
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    border-radius: 200px;
+}
+
+.im:hover {
+    width: 150px;
+    height: 150px;
+    transition-duration: 2s;
+}
+
+
+
+.avatar:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    transition-duration: 2s;
+
+}
